@@ -12,14 +12,47 @@
   height: 80vh;
 }
 
+#inputrow{
+  justify-content: center;
+  text-align: center;
+}
+
 #loginTitle{
   font-style: italic;
-  text-align: center;
-  color: rgb(37, 13, 253);
-  text-shadow: 5px 5px 5px #f06868;
+  
+  color: rgb(31, 6, 250);
+  text-shadow: 5px 5px 5px #f10404;
   margin-bottom: 35px;
+}
+
+#hintTitle {
+  font-style: italic;
+
+  color: rgb(9, 0, 2);
+  text-shadow: 5px 5px 5px #4a1fd7;
+  margin-bottom: 35px;
+}
+
+
+
+#contentInstruction{
+  font-style: oblique;
+    color: rgb(2, 1, 12);
+    font-size: 25px;
 }
 
 #resultbar{
   height: 2.8em;
+}
+
+button {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+}
+
+#count {
+  margin-left: 20px;
+  font-size: 30px;
+  color: black;
 }
