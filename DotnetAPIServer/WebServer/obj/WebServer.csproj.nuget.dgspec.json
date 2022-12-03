@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\MathGame\\DotnetAPIServer\\WebServer\\WebServer.csproj": {}
+    "D:\\Code\\MathGame\\dotnetapiserver\\WebServer\\WebServer.csproj": {}
   },
   "projects": {
-    "D:\\Code\\MathGame\\DotnetAPIServer\\WebServer\\WebServer.csproj": {
+    "D:\\Code\\MathGame\\dotnetapiserver\\WebServer\\WebServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\MathGame\\DotnetAPIServer\\WebServer\\WebServer.csproj",
+        "projectUniqueName": "D:\\Code\\MathGame\\dotnetapiserver\\WebServer\\WebServer.csproj",
         "projectName": "WebServer",
-        "projectPath": "D:\\Code\\MathGame\\DotnetAPIServer\\WebServer\\WebServer.csproj",
+        "projectPath": "D:\\Code\\MathGame\\dotnetapiserver\\WebServer\\WebServer.csproj",
         "packagesPath": "C:\\Users\\007\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\MathGame\\DotnetAPIServer\\WebServer\\obj\\",
+        "outputPath": "D:\\Code\\MathGame\\dotnetapiserver\\WebServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\007\\AppData\\Roaming\\NuGet\\NuGet.Config",

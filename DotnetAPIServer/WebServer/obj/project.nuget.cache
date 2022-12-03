@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8/TtZqmDzF5Hq9QRdeS8plvYkVBNScgA+CeYdtgg6kG6qDPOu1ezdprImh6SDEXg7+Tw5LgLPmlzvArgQdbtjA==",
+  "dgSpecHash": "mz7cUKE4yduj7BlMMNlnoE3AgF6sQ9qzSmHQDf9HXpNR/aAwaf7K58rJv924DZme8hGlIjvVV8mftAZ9SDhVqQ==",
   "success": true,
-  "projectFilePath": "D:\\Code\\MathGame\\DotnetAPIServer\\WebServer\\WebServer.csproj",
+  "projectFilePath": "D:\\Code\\MathGame\\dotnetapiserver\\WebServer\\WebServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\007\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.16\\microsoft.aspnetcore.jsonpatch.3.1.16.nupkg.sha512",
     "C:\\Users\\007\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.16\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.16.nupkg.sha512",
