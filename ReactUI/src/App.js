@@ -116,7 +116,7 @@ function App() {
       setRandomFirstIndex(Math.floor(Math.random() * 3));
       if (inputWord.toString() !== answerArray[0].toString()) {
         alert(
-          `Sorry, incorrect answer! The correct answer is ${answerArray[0]} and should be integer!`
+          `Sorry, incorrect answer! The correct answer is the integer of ${answerArray[0]} !`
         );
       } else {
         setScore(score + 20);
@@ -130,7 +130,7 @@ function App() {
       setRandomSecondIndex(Math.floor(Math.random() * 3));
       if (inputWord.toString() !== answerArray[1].toString()) {
         alert(
-          `Sorry, incorrect answer! The correct answer is ${answerArray[1]} and should be integer!`
+          `Sorry, incorrect answer! The correct answer is the integer of ${answerArray[1]} !`
         );
       } else {
         setScore(score + 20);
@@ -144,7 +144,7 @@ function App() {
       setRandomThirdIndex(Math.floor(Math.random() * 3));
       if (inputWord.toString() !== answerArray[2].toString()) {
         alert(
-          `Sorry, incorrect answer! The correct answer is ${answerArray[2]} and should be integer!`
+          `Sorry, incorrect answer! The correct answer is the integer of  ${answerArray[2]} !`
         );
       } else {
         setScore(score + 20);
@@ -158,7 +158,7 @@ function App() {
       setRandomFourthIndex(Math.floor(Math.random() * 3));
       if (inputWord.toString() !== answerArray[3].toString()) {
         alert(
-          `Sorry, incorrect answer! The correct answer is ${answerArray[3]} and should be integer!`
+          `Sorry, incorrect answer! The correct answer is the integer of  ${answerArray[3]} !`
         );
       } else {
         setScore(score + 20);
@@ -172,7 +172,7 @@ function App() {
       setRandomFifthIndex(Math.floor(Math.random() * 3));
       if (inputWord.toString() !== answerArray[4].toString()) {
         alert(
-          `Sorry, incorrect answer! The correct answer is ${answerArray[4]} and should be integer!`
+          `Sorry, incorrect answer! The correct answer is the integer of  ${answerArray[4]} !`
         );
       } else {
         setScore(score + 20);
