@@ -87,6 +87,10 @@ function App() {
     e.preventDefault();
     document.getElementById("inputValue").value = "";
     setInputWord("");
+    if(count >= 7){
+      window.location.reload(false);
+    }
+    
   };
 
   const SubmitHandler = async (e) => {
@@ -178,15 +182,17 @@ function App() {
         setScore(score + 20);
       }
       setInstruction(
-        `Congratulation! ${name}, You have completed the test. Please click the 'Submit' button to check your grade`
+        `Congratulation! ${name}, You have completed the test. Click 'Submit' button to check grade`
       );
       setLockinput(true);
     } else if (count === 6) {
       setInstruction(
-        `You final grade is ${score}! Please click the 'Submit' button to collect ${name}'s gift!`
+        `You grade is ${score}! Click 'Submit' button to collect ${name}'s gift! Click "Clear" button to restart`
       );
-    } else if (count >= 7) {
+    } else if (count >= 7 && score.toString() !== (0).toString()) {
       window.open(constants.VOLVO_URL, "_blank");
+    }else if (count >= 7 && score.toString() === (0).toString()) {
+      window.open(constants.MATH_URL, "_blank");
     }
 
     setCount(count + 1);
