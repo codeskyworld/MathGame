@@ -50,6 +50,15 @@ namespace WebServer.Process
             // Initialise the return text
             string groupText = "";
 
+            if (valueDigits % 10 == 0)
+            {
+                groupText += _smallNumbers[valueDigits/10];
+                groupText = "Point " + groupText + " ";
+                return groupText;
+            }
+
+
+
             // Determine the tens and units
             int tens = valueDigits / 10;
             int units = valueDigits % 10;

@@ -58,7 +58,7 @@ function App() {
       `${e[1][0]} - ? = ${e[1][2]}`,
       `${e[2][0]} x ? = ${e[2][2]}`,
       `${e[3][0]} ÷ ? = ${e[3][2]}`,
-      `( ${e[4][0]} + ? ) x ( ${e[4][2]} - ${e[4][3]} ）÷ 4 = ${e[4][4]}`,
+      `( ${e[4][0]} + ? ) x ( ${e[4][2]} - ${e[4][3]} ）÷ Four = ${e[4][4]}`,
     ]);
     setAnswerArray([
       `${e[0][1]}`,
@@ -87,10 +87,9 @@ function App() {
     e.preventDefault();
     document.getElementById("inputValue").value = "";
     setInputWord("");
-    if(count >= 7){
+    if (count >= 7) {
       window.location.reload(false);
     }
-    
   };
 
   const SubmitHandler = async (e) => {
@@ -182,16 +181,16 @@ function App() {
         setScore(score + 20);
       }
       setInstruction(
-        `Congratulation! ${name}, You have completed the test. Click 'Submit' button to check grade`
+        `Congratulations! ${name}, You have completed the test. Click 'Submit' button to check grade`
       );
       setLockinput(true);
     } else if (count === 6) {
       setInstruction(
-        `You grade is ${score}! Click 'Submit' button to collect ${name}'s gift! Click "Clear" button to restart`
+        `Your grade is ${score}! Click 'Submit' button to collect ${name}'s gift! Click "Clear" button to restart`
       );
     } else if (count >= 7 && score.toString() !== (0).toString()) {
       window.open(constants.VOLVO_URL, "_blank");
-    }else if (count >= 7 && score.toString() === (0).toString()) {
+    } else if (count >= 7 && score.toString() === (0).toString()) {
       window.open(constants.MATH_URL, "_blank");
     }
 
@@ -213,7 +212,9 @@ function App() {
         <br></br>
         <div className="text-center">
           <h1 id="loginTitle">Math Game</h1>
-          <h3 id="hintTitle">Hint: Answer is the interger of 1 - 100</h3>
+          <h3 id="hintTitle">
+            Hint: The answer is a whole number between 1 and 100
+          </h3>
         </div>
 
         <FormGroup row id="inputrow">
